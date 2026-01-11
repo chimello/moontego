@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moontego - Tráfego Pago para Clínicas | Consultório Lotado</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .btn-primary {
+            @apply bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 inline-block;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- NAVBAR -->
+    <nav class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="index.html" class="text-2xl font-bold gradient-text">Moontego</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#problema" class="text-gray-700 hover:text-purple-600 font-medium">Seu problema</a>
+                    <a href="#solucao" class="text-gray-700 hover:text-purple-600 font-medium">Nossa solução</a>
+                    <a href="#resultados" class="text-gray-700 hover:text-purple-600 font-medium">Resultados</a>
+                </div>
+                <a href="#cta" class="btn-primary text-sm">Agendar conversa</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="bg-gradient-to-br from-purple-900 via-purple-800 to-gray-900 text-white py-20 md:py-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="inline-block bg-purple-700 text-yellow-300 px-4 py-2 rounded-full text-sm font-bold mb-6">Para Clínicas e Saúde</span>
+                    <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+                        Consultório vazio?
+                        <span class="block text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-400">
+                            Lotamos o mês todo.
+                        </span>
+                    </h1>
+                    <p class="text-xl text-gray-300 mb-8">
+                        Tráfego estratégico que traz pacientes certos: aqueles que realmente vão marcar, comparecer e pagar pelos seus serviços.
+                    </p>
+                    <a href="#cta" class="btn-primary text-lg">
+                        Quero preencher minha agenda
+                    </a>
+                </div>
+                <div class="hidden md:block text-center">
+                    <div class="text-9xl mb-6">⚕️</div>
+                    <p class="text-2xl font-bold">Resultado? Consultório lotado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROBLEMA -->
+    <section id="problema" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-gray-900 text-center mb-16">O desafio que você enfrenta</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-red-50 rounded-xl p-8 border-l-4 border-red-500">
+                    <div class="text-5xl mb-4">📆</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Agenda com buracos</h3>
+                    <p class="text-gray-700">Horários de pico lotados, mas muitos períodos vazios. Receita oscila todo mês.</p>
+                    <p class="text-gray-600 text-sm mt-4">💭 Resultado: Fluxo de caixa imprevisível</p>
+                </div>
+
+                <div class="bg-red-50 rounded-xl p-8 border-l-4 border-red-500">
+                    <div class="text-5xl mb-4">🏥</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Paciente desqualificado</h3>
+                    <p class="text-gray-700">Vem gente procurando "consulta barata" que não fecha nenhum procedimento. Tempo perdido.</p>
+                    <p class="text-gray-600 text-sm mt-4">💭 Resultado: Margem ruim, pacientes insatisfeitos</p>
+                </div>
+
+                <div class="bg-red-50 rounded-xl p-8 border-l-4 border-red-500">
+                    <div class="text-5xl mb-4">💻</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Não consegue gerenciar marketing</h3>
+                    <p class="text-gray-700">Tá 100% na clínica. Marketing fica de lado. Resultado: sem novos pacientes.</p>
+                    <p class="text-gray-600 text-sm mt-4">💭 Resultado: Crescimento estagnado</p>
+                </div>
+
+                <div class="bg-red-50 rounded-xl p-8 border-l-4 border-red-500">
+                    <div class="text-5xl mb-4">😟</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Medo de investir em ads</h3>
+                    <p class="text-gray-700">Tentou Google Ads, saiu caro demais. Agora tá na tua sem saber como crescer.</p>
+                    <p class="text-gray-600 text-sm mt-4">💭 Resultado: Fica preso ao crescimento orgânico</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOLUÇÃO -->
+    <section id="solucao" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-gray-900 text-center mb-16">Como a Moontego resolve para Clínicas</h2>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex gap-4">
+                            <div class="text-3xl">🎯</div>
+                            <div>
+                                <h3 class="font-bold text-gray-900 text-lg mb-2">Atrai paciente que realmente quer se tratar</h3>
+                                <p class="text-gray-600">Segmentamos pra trazer gente que busca resultado, não o mais barato. Paciente qualificado.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex gap-4">
+                            <div class="text-3xl">📊</div>
+                            <div>
+                                <h3 class="font-bold text-gray-900 text-lg mb-2">Relatório transparente do seu investimento</h3>
+                                <p class="text-gray-600">Você sabe: gastei X, trouxe Y pacientes, retorno foi Z. Sem confusão.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex gap-4">
+                            <div class="text-3xl">📱</div>
+                            <div>
+                                <h3 class="font-bold text-gray-900 text-lg mb-2">Landing page que converte</h3>
+                                <p class="text-gray-600">A gente cria página de agendamento otimizada. Você aprova, eles marcam.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex gap-4">
+                            <div class="text-3xl">🔄</div>
+                            <div>
+                                <h3 class="font-bold text-gray-900 text-lg mb-2">Otimização contínua</h3>
+                                <p class="text-gray-600">Testamos copy, imagem, audiência todos os dias. Resultado melhora semana a semana.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-br from-purple-100 to-pink-100 rounded-2xl p-12 text-center">
+                    <div class="text-8xl mb-6">✅</div>
+                    <p class="text-2xl font-bold text-gray-900 mb-4">Resultado?</p>
+                    <p class="text-xl text-gray-700 mb-6">Consultório cheio, paciente certo, margem saudável.</p>
+                    <div class="bg-white rounded-xl p-6 inline-block">
+                        <p class="text-4xl font-bold gradient-text">+87%</p>
+                        <p class="text-gray-600">em agendamentos (clínica real)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESULTADOS -->
+    <section id="resultados" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-gray-900 text-center mb-16">Resultados de clientes Clínicas</h2>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-8 border-l-4 border-green-500">
+                    <p class="text-gray-700 italic mb-6">"Consultório tava vazio no meio da semana. Agora tá com agenda marcada 2 meses na frente."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold">DR</div>
+                        <div>
+                            <p class="font-bold text-gray-900">Dra. Roberta</p>
+                            <p class="text-sm text-gray-600">Clínica de Dermatologia - SP</p>
+                        </div>
+                    </div>
+                    <div class="mt-6 pt-6 border-t border-green-200">
+                        <p class="text-sm text-gray-600 mb-2">Resultado em 90 dias:</p>
+                        <p class="text-2xl font-bold gradient-text">+87% consultas</p>
+                        <p class="text-sm text-gray-600 mt-2">Investimento: R$ 1.500/mês | Ganho: 30 novos pacientes/mês</p>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-8 border-l-4 border-green-500">
+                    <p class="text-gray-700 italic mb-6">"Gastava caro com Google Ads e recebia gente que não queria pagar procedimento. Moontego mudou tudo."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold">CF</div>
+                        <div>
+                            <p class="font-bold text-gray-909">Dr. Carlos</p>
+                            <p class="text-sm text-gray-600">Clínica Odontológica - RJ</p>
+                        </div>
+                    </div>
+                    <div class="mt-6 pt-6 border-t border-green-200">
+                        <p class="text-sm text-gray-600 mb-2">Resultado em 60 dias:</p>
+                        <p class="text-2xl font-bold gradient-text">+145% em conversão</p>
+                        <p class="text-sm text-gray-600 mt-2">Investimento: R$ 1.200/mês | Paciente premium aumentou 40%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section id="cta" class="py-20 bg-gradient-to-br from-purple-900 to-gray-900 text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                Pronto para ter consultório lotado?
+            </h2>
+            <p class="text-xl text-gray-300 mb-8">
+                Conversa rápida, a gente entende sua clínica, monta estratégia e bota pacientes marcando.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://wa.me/5511999999999?text=Olá!%20Sou%20clínica%20e%20quero%20lotar%20meu%20consultório" target="_blank" class="btn-primary text-lg px-8 py-4">
+                    Agendar conversa (WhatsApp)
+                </a>
+                <a href="mailto:contato@moontego.com.br?subject=Sou clínica - Quero conversa" class="border-2 border-white text-white hover:bg-white hover:bg-opacity-10 px-8 py-4 rounded-lg font-semibold transition-all text-lg">
+                    Enviar brief
+                </a>
+            </div>
+
+            <p class="text-gray-400 mt-8">
+                Sem compromisso. Primeira conversa é só pra entender sua situação.
+            </p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-gray-400 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center border-t border-gray-800 pt-8">
+                <a href="index.html" class="font-bold text-white hover:text-purple-400">← Voltar para Moontego</a>
+                <p class="text-sm">© 2024 Moontego</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

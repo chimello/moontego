@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moontego - Tráfego Pago para Negócios Locais | Clientes da Sua Região</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .btn-primary {
+            @apply bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 inline-block;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- NAVBAR -->
+    <nav class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="index.html" class="text-2xl font-bold gradient-text">Moontego</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#problema" class="text-gray-700 hover:text-purple-600 font-medium">Seu problema</a>
+                    <a href="#solucao" class="text-gray-700 hover:text-purple-600 font-medium">Nossa solução</a>
+                    <a href="#resultados" class="text-gray-700 hover:text-purple-600 font-medium">Resultados</a>
+                </div>
+                <a href="#cta" class="btn-primary text-sm">Agendar conversa</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="bg-gradient-to-br from-purple-900 via-purple-800 to-gray-900 text-white py-20 md:py-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="inline-block bg-purple-700 text-yellow-300 px-4 py-2 rounded-full text-sm font-bold mb-6">Para Negócios Locais</span>
+                    <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+                        Atrai cliente certo
+                        <span class="block text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-400">
+                            Da sua região.
+                        </span>
+                    </h1>
+                    <p class="text-xl text-gray-300 mb-8">
+                        Tráfego estratégico que traz clientes locais prontos pra comprar. Aqueles que estão à 5km de você procurando exatamente o que você vende.
+                    </p>
+                    <a href="#cta" class="btn-primary text-lg">
+                        Quero cliente local agora
+                    </a>
+                </div>
+                <div class="hidden md:block text-center">
+                    <div class="text-9xl mb-6">🏪</div>
+                    <p class="text-2xl font-bold">Resultado? Cliente local de verdade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROBLEMA -->
+    <section id="problema" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-gray-900 text-center mb-16">O desafio do negócio local</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-red-50 rounded-xl p-8 border-l-4 border-red-500">
+                    <div class="text-5xl mb-4">🗺️</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Cliente tá online procurando, mas não te acha</h3>
+                    <p class="text-gray-700">Tem Google, Instagram, TikTok... mas como o cliente local encontra você? Fica perdido na multidão.</p>
+                    <p class="text-gray-600 text-sm mt-4">💭 Resultado: Cliente passa por você sem saber que existe</p>
+                </div>
+
+                <div class="bg-red-50 rounded-xl p-8 border-l-4 border-red-500">
+                    <div class="text-5xl mb-4">💸</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Gasta com anúncio que atrai gente de longe</h3>
+                    <p class="text-gray-700">Tenta publicidade, mas vem gente de outro bairro, outra cidade. Não vale a pena.</p>
+                    <p class="text-gray-600 text-sm mt-4">💭 Resultado: Anúncio caro, sem conversão</p>
+                </div>
+
+                <div class="bg-red-50 rounded-xl p-8 border-l-4 border-red-500">
+                    <div class="text-5xl mb-4">📍</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Não sabe segmentar por localização</h3>
+                    <p class="text-gray-700">Tenta rodar anúncio mas não consegue segmentar direito por bairro ou raio de ação.</p>
+                    <p class="text-gray-600 text-sm mt-4">💭 Resultado: Desperdício de orçamento</p>
+                </div>
+
+                <div class="bg-red-50 rounded-xl p-8 border-l-4 border-red-500">
+                    <div class="text-5xl mb-4">⏰</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Tá 100% no balcão, sem tempo pra marketing</h3>
+                    <p class="text-gray-700">Seu tempo é escasso. Marketing digital é complexo demais pra você aprender.</p>
+                    <p class="text-gray-600 text-sm mt-4">💭 Resultado: Fica invisível online</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOLUÇÃO -->
+    <section id="solucao" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-gray-900 text-center mb-16">Como a Moontego resolve para Negócios Locais</h2>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex gap-4">
+                            <div class="text-3xl">📍</div>
+                            <div>
+                                <h3 class="font-bold text-gray-909 text-lg mb-2">Segmentação por bairro/região</h3>
+                                <p class="text-gray-600">Anúncio aparece só pra quem tá perto. Vem gente que consegue entrar na loja.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex gap-4">
+                            <div class="text-3xl">💰</div>
+                            <div>
+                                <h3 class="font-bold text-gray-909 text-lg mb-2">ROI claramente local</h3>
+                                <p class="text-gray-600">Relatório mostra: "Investimento no bairro X trouxe Y clientes, ganho foi Z".</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex gap-4">
+                            <div class="text-3xl">📱</div>
+                            <div>
+                                <h3 class="font-bold text-gray-909 text-lg mb-2">Landing page + mapa</h3>
+                                <p class="text-gray-600">Criamos página que já mostra sua localização. Cliente vem sabendo onde fica.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex gap-4">
+                            <div class="text-3xl">🎯</div>
+                            <div>
+                                <h3 class="font-bold text-gray-909 text-lg mb-2">Estratégia de fidelização local</h3>
+                                <p class="text-gray-600">Depois que vem, a gente mantém cliente voltando. Mensagens, promoções pra região.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hidden md:block">
+                    <img src="https://via.placeholder.com/500x400.png?text=Imagem+Ilustrativa" alt="Solução Moontego" class="rounded-xl shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESULTADOS -->
+    <section id="resultados" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-gray-909 text-center mb-16">Resultados que falam</h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="text-6xl text-purple-600 mb-4">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-909 mb-2">+150%</h3>
+                    <p class="text-gray-600">Aumento médio de tráfego local</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="text-6xl text-purple-600 mb-4">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-909 mb-2">+300</h3>
+                    <p class="text-gray-600">Novos clientes por mês</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="text-6xl text-purple-600 mb-4">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-909 mb-2">+200%</h3>
+                    <p class="text-gray-600">Aumento na receita mensal</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta" class="py-20 bg-gradient-to-br from-purple-900 to-purple-700 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold mb-4">Pronto para turbinar seu negócio?</h2>
+            <p class="text-lg text-gray-200 mb-8">Entre em contato e descubra como podemos ajudar você a crescer.</p>
+            <a href="mailto:contato@moontego.com.br" class="btn-primary text-lg">Quero saber mais</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-10 bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-sm">&copy; 2023 Moontego. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
