@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,29 +9,36 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <style>
         html {
             scroll-behavior: smooth;
         }
+
         body {
             font-family: 'Inter', sans-serif;
         }
+
         .gradient-text {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
+
         .btn-primary {
             @apply bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 inline-block;
         }
+
         .btn-secondary {
             @apply border-2 border-purple-600 text-purple-600 hover:bg-purple-50 px-8 py-3 rounded-lg font-semibold transition-all duration-300 inline-block;
         }
+
         .card-nicho {
             @apply bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300;
         }
+
         .parallax-bg {
             background-image: url('assets/logo-moontego.png');
             background-attachment: fixed;
@@ -48,6 +56,7 @@
         }
     </style>
 </head>
+
 <body class="bg-gray-50">
     <div class="parallax-bg"></div>
 
@@ -60,13 +69,19 @@
                     <span class="text-2xl font-bold gradient-text">Moontego</span>
                 </div>
                 <div class="hidden md:flex space-x-8">
-                    <a href="#para-quem" class="text-gray-700 hover:text-purple-600 font-medium transition">Para quem</a>
-                    <a href="#o-problema" class="text-gray-700 hover:text-purple-600 font-medium transition">Problema</a>
-                    <a href="#diferente" class="text-gray-700 hover:text-purple-600 font-medium transition">Diferença</a>
-                    <a href="#como-funciona" class="text-gray-700 hover:text-purple-600 font-medium transition">Como funciona</a>
+                    <a href="#para-quem" class="text-gray-700 hover:text-purple-600 font-medium transition">Para
+                        quem</a>
+                    <a href="#o-problema"
+                        class="text-gray-700 hover:text-purple-600 font-medium transition">Problema</a>
+                    <a href="#diferente"
+                        class="text-gray-700 hover:text-purple-600 font-medium transition">Diferença</a>
+                    <a href="#como-funciona" class="text-gray-700 hover:text-purple-600 font-medium transition">Como
+                        funciona</a>
                     <a href="#faq" class="text-gray-700 hover:text-purple-600 font-medium transition">FAQ</a>
                 </div>
-                <a href="#cta-final" class="btn-primary text-sm">Agendar conversa</a>
+                <a href="#cta-final"
+                    class="bg-amber-400 hover:bg-orange-500 text-white font-bold py-2 px-4 rounded-full">Agendar
+                    conversa</a>
             </div>
         </div>
     </nav>
@@ -77,28 +92,34 @@
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div>
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                        Nós não vendemos anúncios.
-                        <span class="block text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-400">
-                            Construímos previsibilidade de clientes.
+                        A Moontego não vende anúncios.
+                        <span
+                            class="block text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-400">
+                            Nós construímos previsibilidade de vendas.
                         </span>
                     </h1>
                     <p class="text-xl text-gray-300 mb-8 leading-relaxed">
-                        Tráfego pago estratégico, landing pages e funis pensados para canis, clínicas, advocacia, delivery e negócios locais.
+                        Pare de depender da sorte ou de métricas de vaidade. Tenha uma estratégia de tráfego pago focada
+                        em lotar sua agenda e aumentar seu faturamento real.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4">
                         <button class="bg-amber-400 hover:bg-orange-500 text-white font-bold py-2 px-4 rounded-full">
-                        <a href="https://wa.me/5546991212854?text=Olá%20Moontego!%20Quero%20saber%20mais%20sobre%20previsibilidade%20de%20clientes" target="_blank" class="btn-primary text-center text-lg px-8 py-4 rounded-lg font-semibold">
-                            Quero previsibilidade de clientes
-                        </a>
+                            <a href="https://wa.me/5546991212854?text=Olá%20Moontego!%20Quero%20saber%20mais%20sobre%20previsibilidade%20de%20clientes"
+                                target="_blank"
+                                class="btn-primary text-center text-lg px-8 py-4 rounded-lg font-semibold">
+                                Quero vender mais todos os dias
+                            </a>
                         </button>
-                        <a href="#para-quem" class="btn-secondary text-center text-lg text-white border-white hover:bg-white hover:bg-opacity-10 px-8 py-4 rounded-lg">
+                        <a href="#para-quem"
+                            class="btn-secondary text-center text-lg text-white border-white hover:bg-white hover:bg-opacity-10 px-8 py-4 rounded-lg">
                             Saiba mais ↓
                         </a>
                     </div>
                 </div>
                 <div class="hidden md:block">
                     <!-- <img src="https://images.unsplash.com/photo-1651922118990-4017b1f29fd3?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Analytics Dashboard" class="rounded-2xl shadow-2xl"> -->
-                    <img src="https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Analytics Dashboard" class="rounded-2xl shadow-2xl">
+                    <img src="https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Analytics Dashboard" class="rounded-2xl shadow-2xl">
                     <!-- <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Analytics Dashboard" class="rounded-2xl shadow-2xl"> -->
                 </div>
             </div>
@@ -110,98 +131,121 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-4xl font-bold text-gray-900 mb-4">Para quem é a Moontego</h2>
-                <p class="text-xl text-gray-600">Atendemos negócios que precisam de leads qualificados e previsibilidade</p>
+                <p class="text-xl text-gray-600">Atendemos negócios que precisam de leads qualificados e previsibilidade
+                </p>
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
                 <!-- CANIS E PETSHOPS -->
                 <a href="pages/canis.html" class="card-nicho cursor-pointer group block h-full">
-                    <img src="https://images.unsplash.com/photo-1534361960057-19889db9621e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Canis" class="rounded-lg mb-4 h-40 object-cover w-full group-hover:scale-105 transition">
+                    <img src="https://images.unsplash.com/photo-1534361960057-19889db9621e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Canis" class="rounded-lg mb-4 h-40 object-cover w-full group-hover:scale-105 transition">
                     <div class="text-4xl mb-4">🐕</div>
                     <h3 class="text-xl font-bold text-gray-900 mb-4">Canis e Petshops</h3>
                     <ul class="space-y-3">
                         <li class="flex items-start">
                             <span class="text-purple-600 mr-2">✓</span>
-                            <span class="text-gray-700 text-sm">Agenda furada? Lotamos sua agenda.</span>
+                            <span class="text-gray-700 text-sm">Encontre donos amorosos e qualificados para seus
+                                filhotes.</span>
                         </li>
                         <li class="flex items-start">
                             <span class="text-purple-600 mr-2">✓</span>
-                            <span class="text-gray-700 text-sm">Atraímos clientes que pagam premium</span>
+                            <span class="text-gray-700 text-sm">Reduza custos de manutenção vendendo as ninhadas mais
+                                rápido.</span>
                         </li>
                     </ul>
-                    <div class="mt-4 text-purple-600 font-semibold group-hover:translate-x-2 transition">Ver detalhes →</div>
+                    <div class="mt-4 text-purple-600 font-semibold group-hover:translate-x-2 transition">Ver detalhes →
+                    </div>
                 </a>
 
                 <!-- CLÍNICAS E SAÚDE -->
                 <a href="pages/clinicas.html" class="card-nicho cursor-pointer group block h-full">
-                    <img src="https://plus.unsplash.com/premium_photo-1682130157004-057c137d96d5?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Clínicas" class="rounded-lg mb-4 h-40 object-cover w-full group-hover:scale-105 transition">
+                    <img src="https://plus.unsplash.com/premium_photo-1682130157004-057c137d96d5?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Clínicas"
+                        class="rounded-lg mb-4 h-40 object-cover w-full group-hover:scale-105 transition">
                     <div class="text-4xl mb-4">⚕️</div>
                     <h3 class="text-xl font-bold text-gray-900 mb-4">Clínicas e Saúde</h3>
                     <ul class="space-y-3">
                         <li class="flex items-start">
                             <span class="text-purple-600 mr-2">✓</span>
-                            <span class="text-gray-700 text-sm">Consultório lotado o mês todo</span>
+                            <span class="text-gray-700 text-sm">Lote sua agenda com pacientes particulares.</span>
                         </li>
                         <li class="flex items-start">
                             <span class="text-purple-600 mr-2">✓</span>
-                            <span class="text-gray-700 text-sm">Pacientes certos na hora certa</span>
+                            <span class="text-gray-700 text-sm">Reduza as faltas e atraia os procedimentos de maior
+                                valor.</span>
                         </li>
                     </ul>
-                    <div class="mt-4 text-purple-600 font-semibold group-hover:translate-x-2 transition">Ver detalhes →</div>
+                    <div class="mt-4 text-purple-600 font-semibold group-hover:translate-x-2 transition">Ver detalhes →
+                    </div>
                 </a>
 
                 <!-- ADVOCACIA -->
                 <a href="pages/advocacia.html" class="card-nicho cursor-pointer group block h-full">
-                    <img src="https://images.unsplash.com/photo-1593115057322-e94b77572f20?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Advocacia" class="rounded-lg mb-4 h-40 object-cover w-full group-hover:scale-105 transition">
+                    <img src="https://images.unsplash.com/photo-1593115057322-e94b77572f20?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Advocacia"
+                        class="rounded-lg mb-4 h-40 object-cover w-full group-hover:scale-105 transition">
                     <div class="text-4xl mb-4">⚖️</div>
                     <h3 class="text-xl font-bold text-gray-900 mb-4">Advocacia</h3>
                     <ul class="space-y-3">
                         <li class="flex items-start">
                             <span class="text-purple-600 mr-2">✓</span>
-                            <span class="text-gray-700 text-sm">Liga o mês inteiro e não fecha</span>
+                            <span class="text-gray-700 text-sm">Chega de curiosos. Atraia quem tem um problema jurídico
+                                urgente.</span>
                         </li>
                         <li class="flex items-start">
                             <span class="text-purple-600 mr-2">✓</span>
-                            <span class="text-gray-700 text-sm">Clientes com poder de compra</span>
+                            <span class="text-gray-700 text-sm">Transmita autoridade para quem busca seu serviço no
+                                Google.</span>
                         </li>
                     </ul>
-                    <div class="mt-4 text-purple-600 font-semibold group-hover:translate-x-2 transition">Ver detalhes →</div>
+                    <div class="mt-4 text-purple-600 font-semibold group-hover:translate-x-2 transition">Ver detalhes →
+                    </div>
                 </a>
 
                 <!-- DELIVERY -->
                 <a href="pages/delivery.html" class="card-nicho cursor-pointer group block h-full">
-                    <img src="https://plus.unsplash.com/premium_photo-1661547843345-e1ca800df0e0?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Delivery" class="rounded-lg mb-4 h-40 object-cover w-full group-hover:scale-105 transition">
+                    <img src="https://plus.unsplash.com/premium_photo-1661547843345-e1ca800df0e0?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Delivery"
+                        class="rounded-lg mb-4 h-40 object-cover w-full group-hover:scale-105 transition">
                     <div class="text-4xl mb-4">🍕</div>
                     <h3 class="text-xl font-bold text-gray-900 mb-4">Delivery</h3>
                     <ul class="space-y-3">
                         <li class="flex items-start">
                             <span class="text-purple-600 mr-2">✓</span>
-                            <span class="text-gray-700 text-sm">Aumente volume sem aumentar custo</span>
+                            <span class="text-gray-700 text-sm">Venda todos os dias, não apenas no fim de semana.</span>
                         </li>
                         <li class="flex items-start">
                             <span class="text-purple-600 mr-2">✓</span>
-                            <span class="text-gray-700 text-sm">Clientes que pedem regularmente</span>
+                            <span class="text-gray-700 text-sm">Aumente os pedidos diretos e fuja das taxas dos
+                                aplicativos.</span>
                         </li>
                     </ul>
-                    <div class="mt-4 text-purple-600 font-semibold group-hover:translate-x-2 transition">Ver detalhes →</div>
+                    <div class="mt-4 text-purple-600 font-semibold group-hover:translate-x-2 transition">Ver detalhes →
+                    </div>
                 </a>
 
                 <!-- NEGÓCIOS LOCAIS -->
                 <a href="pages/locais.html" class="card-nicho cursor-pointer group block h-full">
-                    <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?w=300&h=200&fit=crop" alt="Negócios Locais" class="rounded-lg mb-4 h-40 object-cover w-full group-hover:scale-105 transition">
+                    <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?w=300&h=200&fit=crop"
+                        alt="Negócios Locais"
+                        class="rounded-lg mb-4 h-40 object-cover w-full group-hover:scale-105 transition">
                     <div class="text-4xl mb-4">🏪</div>
                     <h3 class="text-xl font-bold text-gray-900 mb-4">Negócios Locais</h3>
                     <ul class="space-y-3">
                         <li class="flex items-start">
                             <span class="text-purple-600 mr-2">✓</span>
-                            <span class="text-gray-700 text-sm">Atrai cliente certo da sua região</span>
+                            <span class="text-gray-700 text-sm">Seja a primeira opção quando alguém do bairro pesquisar
+                                no Google.</span>
                         </li>
                         <li class="flex items-start">
                             <span class="text-purple-600 mr-2">✓</span>
-                            <span class="text-gray-700 text-sm">Tráfego que realmente converte</span>
+                            <span class="text-gray-700 text-sm">Tráfego geo-localizado para atrair o cliente que está
+                                perto de você.</span>
                         </li>
                     </ul>
-                    <div class="mt-4 text-purple-600 font-semibold group-hover:translate-x-2 transition">Ver detalhes →</div>
+                    <div class="mt-4 text-purple-600 font-semibold group-hover:translate-x-2 transition">Ver detalhes →
+                    </div>
                 </a>
             </div>
         </div>
@@ -219,37 +263,43 @@
                 <div class="bg-white rounded-xl p-8 shadow-lg border-l-4 border-red-500">
                     <div class="text-4xl mb-4">💸</div>
                     <h3 class="text-xl font-bold text-gray-900 mb-3">Gasta com anúncio e não vê retorno</h3>
-                    <p class="text-gray-600">Investe em tráfego, mas o ROI é invisível ou negativo. Não sabe onde o dinheiro está indo.</p>
+                    <p class="text-gray-600">Você coloca dinheiro no Google ou Facebook, mas a conta não fecha. O
+                        investimento vira despesa e o lucro nunca aparece.</p>
                 </div>
 
                 <div class="bg-white rounded-xl p-8 shadow-lg border-l-4 border-red-500">
                     <div class="text-4xl mb-4">📊</div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Não entende números e relatórios</h3>
-                    <p class="text-gray-600">Recebe dashboards complexos que não fazem sentido. Quer saber: estou ganhando ou perdendo?</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Não entende os relatórios</h3>
+                    <p class="text-gray-600">Recebe planilhas confusas cheias de siglas (CPC, CTR) que não dizem o
+                        principal: quanto dinheiro entrou no seu bolso.</p>
                 </div>
 
                 <div class="bg-white rounded-xl p-8 shadow-lg border-l-4 border-red-500">
                     <div class="text-4xl mb-4">❌</div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Já tentou tráfego pago e não funcionou</h3>
-                    <p class="text-gray-600">Tentou com agência errada ou amigo que mexe com anúncio. Perdeu grana e perdeu a fé.</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Já tentou e não funcionou</h3>
+                    <p class="text-gray-600">Tentou fazer sozinho ou contratou agências que prometiam muito e entregavam
+                        pouco. Você perdeu a fé no tráfego pago.</p>
                 </div>
 
                 <div class="bg-white rounded-xl p-8 shadow-lg border-l-4 border-red-500">
                     <div class="text-4xl mb-4">👻</div>
-                    <h3 class="text-xl font-bold text-gray-909 mb-3">Recebe lead desqualificado</h3>
-                    <p class="text-gray-600">Vem gente que não vai comprar nunca. Custa seu tempo ligando para leads frios.</p>
+                    <h3 class="text-xl font-bold text-gray-909 mb-3">Só chega curioso e desqualificado</h3>
+                    <p class="text-gray-600">Seu WhatsApp toca, mas é gente querendo "preço" ou que não tem perfil para
+                        comprar. Você perde tempo atendendo quem não fecha.</p>
                 </div>
 
                 <div class="bg-white rounded-xl p-8 shadow-lg border-l-4 border-red-500">
                     <div class="text-4xl mb-4">⏰</div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Falta tempo pra fazer marketing sozinho</h3>
-                    <p class="text-gray-600">Tá focado em atender cliente. Marketing fica pro segundo plano (ou não sai do zero).</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Falta de tempo para o marketing</h3>
+                    <p class="text-gray-600">Você precisa cuidar do seu negócio e dos seus clientes. Tentar aprender
+                        tráfego sozinho está consumindo a energia que você deveria usar para crescer.</p>
                 </div>
 
                 <div class="bg-white rounded-xl p-8 shadow-lg border-l-4 border-red-500">
                     <div class="text-4xl mb-4">😰</div>
                     <h3 class="text-xl font-bold text-gray-900 mb-3">Insegurança em investir mais</h3>
-                    <p class="text-gray-600">Teme jogar mais grana fora. Quer garantia que vai funcionar antes de colocar dinheiro.</p>
+                    <p class="text-gray-600">Tem medo de aumentar a verba e ver o dinheiro ir pelo ralo sem garantia de
+                        retorno.</p>
                 </div>
             </div>
         </div>
@@ -267,55 +317,65 @@
                 <div class="space-y-8">
                     <div class="flex gap-6">
                         <div class="flex-shrink-0">
-                            <div class="flex items-center justify-center h-12 w-12 rounded-lg bg-purple-600 text-white text-xl">
+                            <div
+                                class="flex items-center justify-center h-12 w-12 rounded-lg bg-purple-600 text-white text-xl">
                                 ✓
                             </div>
                         </div>
                         <div>
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Nada é impulsionado sem planejamento</h3>
-                            <p class="text-gray-600">Primeiro a gente entende seu negócio, sua audiência, seu produto. Depois sim a gente faz o anúncio rodar.</p>
+                            <p class="text-gray-600">Antes de gastar R$ 1, nós estudamos seu negócio, seu público e sua
+                                oferta. Não existe "botão impulsionar" aqui, existe estratégia.</p>
                         </div>
                     </div>
 
                     <div class="flex gap-6">
                         <div class="flex-shrink-0">
-                            <div class="flex items-center justify-center h-12 w-12 rounded-lg bg-purple-600 text-white text-xl">
+                            <div
+                                class="flex items-center justify-center h-12 w-12 rounded-lg bg-purple-600 text-white text-xl">
                                 ✓
                             </div>
                         </div>
                         <div>
-                            <h3 class="text-xl font-bold text-gray-900 mb-2">Campanhas diferentes para quem pesquisa x quem quer comprar</h3>
-                            <p class="text-gray-600">Não é tudo igual. Quem tá descobrindo recebe mensagem diferente de quem já tá pronto.</p>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Campanhas para cada etapa da compra</h3>
+                            <p class="text-gray-600">Criamos anúncios diferentes para quem está só pesquisando e para
+                                quem já está pronto para passar o cartão.</p>
                         </div>
                     </div>
 
                     <div class="flex gap-6">
                         <div class="flex-shrink-0">
-                            <div class="flex items-center justify-center h-12 w-12 rounded-lg bg-purple-600 text-white text-xl">
+                            <div
+                                class="flex items-center justify-center h-12 w-12 rounded-lg bg-purple-600 text-white text-xl">
                                 ✓
                             </div>
                         </div>
                         <div>
-                            <h3 class="text-xl font-bold text-gray-909 mb-2">Acompanhamento diário e otimização contínua</h3>
-                            <p class="text-gray-600">Não é "dispara e deixa". A gente testa, aprende, ajusta. Todos os dias. Resultado melhora com o tempo.</p>
+                            <h3 class="text-xl font-bold text-gray-909 mb-2">Acompanhamento diário e otimização</h3>
+                            <p class="text-gray-600">Campanha não roda sozinha. Monitoramos e ajustamos todos os dias
+                                para cortar o que é ruim e escalar o que dá lucro.</p>
                         </div>
                     </div>
 
                     <div class="flex gap-6">
                         <div class="flex-shrink-0">
-                            <div class="flex items-center justify-center h-12 w-12 rounded-lg bg-purple-600 text-white text-xl">
+                            <div
+                                class="flex items-center justify-center h-12 w-12 rounded-lg bg-purple-600 text-white text-xl">
                                 ✓
                             </div>
                         </div>
                         <div>
-                            <h3 class="text-xl font-bold text-gray-909 mb-2">Foco em leads qualificados, não em curtidas/alcance</h3>
-                            <p class="text-gray-600">Não importa quantas pessoas viram seu anúncio. Importa quantas vão virar cliente. Esse é nosso foco.</p>
+                            <h3 class="text-xl font-bold text-gray-909 mb-2">Foco em vendas, não em curtidas</h3>
+                            <p class="text-gray-600">"Like" não paga boleto. Nosso foco total é em trazer leads
+                                qualificados, agenda cheia e vendas reais.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="bg-gradient-to-br from-purple-100 to-pink-100 rounded-2xl p-12 h-full flex items-center justify-center">
-                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=400&fit=crop" alt="Estratégia" class="rounded-xl shadow-lg">
+                <div
+                    class="bg-gradient-to-br from-purple-100 to-pink-100 rounded-2xl p-12 h-full flex items-center justify-center">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=400&fit=crop"
+                        alt="Estratégia" class="rounded-xl shadow-lg">
                 </div>
             </div>
         </div>
@@ -331,16 +391,21 @@
 
             <div class="relative">
                 <!-- Timeline vertical -->
-                <div class="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-purple-600 to-pink-600 hidden md:block"></div>
+                <div
+                    class="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-purple-600 to-pink-600 hidden md:block">
+                </div>
 
                 <div class="space-y-12">
                     <!-- Step 1 -->
                     <div class="md:flex md:mb-8">
                         <div class="md:w-1/2 md:pr-8 md:text-right">
                             <div class="bg-white rounded-xl p-8 shadow-lg">
-                                <div class="inline-flex items-center justify-center bg-purple-600 text-white rounded-full w-12 h-12 font-bold mb-4 md:ml-auto">1</div>
+                                <div
+                                    class="inline-flex items-center justify-center bg-purple-600 text-white rounded-full w-12 h-12 font-bold mb-4 md:ml-auto">
+                                    1</div>
                                 <h3 class="text-2xl font-bold text-gray-900 mb-2">Diagnóstico</h3>
-                                <p class="text-gray-600">A gente entende seu negócio, seu mercado, sua concorrência e sua meta de clientes.</p>
+                                <p class="text-gray-600">Entendemos suas metas, analisamos sua concorrência e
+                                    encontramos onde está o dinheiro deixado na mesa.</p>
                             </div>
                         </div>
                         <div class="hidden md:block md:w-1/2"></div>
@@ -351,9 +416,12 @@
                         <div class="hidden md:block md:w-1/2"></div>
                         <div class="md:w-1/2 md:pl-8">
                             <div class="bg-white rounded-xl p-8 shadow-lg">
-                                <div class="inline-flex items-center justify-center bg-purple-600 text-white rounded-full w-12 h-12 font-bold mb-4">2</div>
+                                <div
+                                    class="inline-flex items-center justify-center bg-purple-600 text-white rounded-full w-12 h-12 font-bold mb-4">
+                                    2</div>
                                 <h3 class="text-2xl font-bold text-gray-909 mb-2">Estratégia</h3>
-                                <p class="text-gray-600">Definimos o funil, o positioning, a audiência e quais plataformas vão rodar seus anúncios.</p>
+                                <p class="text-gray-600">Definimos o funil de vendas, os canais (Google/Meta) e a
+                                    comunicação ideal para seu público.</p>
                             </div>
                         </div>
                     </div>
@@ -362,9 +430,12 @@
                     <div class="md:flex md:mb-8">
                         <div class="md:w-1/2 md:pr-8 md:text-right">
                             <div class="bg-white rounded-xl p-8 shadow-lg">
-                                <div class="inline-flex items-center justify-center bg-purple-600 text-white rounded-full w-12 h-12 font-bold mb-4 md:ml-auto">3</div>
+                                <div
+                                    class="inline-flex items-center justify-center bg-purple-600 text-white rounded-full w-12 h-12 font-bold mb-4 md:ml-auto">
+                                    3</div>
                                 <h3 class="text-2xl font-bold text-gray-909 mb-2">Criação</h3>
-                                <p class="text-gray-600">Fazemos os anúncios, landing pages e funis de conversão. Tudo otimizado para vender.</p>
+                                <p class="text-gray-600">Desenvolvemos as Landing Pages de alta conversão, os criativos
+                                    (anúncios) e as copys persuasivas.</p>
                             </div>
                         </div>
                         <div class="hidden md:block md:w-1/2"></div>
@@ -375,9 +446,12 @@
                         <div class="hidden md:block md:w-1/2"></div>
                         <div class="md:w-1/2 md:pl-8">
                             <div class="bg-white rounded-xl p-8 shadow-lg">
-                                <div class="inline-flex items-center justify-center bg-purple-600 text-white rounded-full w-12 h-12 font-bold mb-4">4</div>
+                                <div
+                                    class="inline-flex items-center justify-center bg-purple-600 text-white rounded-full w-12 h-12 font-bold mb-4">
+                                    4</div>
                                 <h3 class="text-2xl font-bold text-gray-909 mb-2">Testes e Otimização</h3>
-                                <p class="text-gray-600">Rodamos, testamos, aprendemos. Cada dia os anúncios ficam mais rentáveis.</p>
+                                <p class="text-gray-600">Colocamos no ar, testamos públicos e criativos. Otimizamos
+                                    diariamente para baixar seu custo por cliente.</p>
                             </div>
                         </div>
                     </div>
@@ -386,9 +460,12 @@
                     <div class="md:flex">
                         <div class="md:w-1/2 md:pr-8 md:text-right">
                             <div class="bg-white rounded-xl p-8 shadow-lg">
-                                <div class="inline-flex items-center justify-center bg-purple-600 text-white rounded-full w-12 h-12 font-bold mb-4 md:ml-auto">5</div>
-                                <h3 class="text-2xl font-bold text-gray-909 mb-2">Relatórios Claros</h3>
-                                <p class="text-gray-600">Todo mês você recebe relatório simples e uma reunião de acompanhamento. Sem blábláblá.</p>
+                                <div
+                                    class="inline-flex items-center justify-center bg-purple-600 text-white rounded-full w-12 h-12 font-bold mb-4 md:ml-auto">
+                                    5</div>
+                                <h3 class="text-2xl font-bold text-gray-909 mb-2">Relatórios</h3>
+                                <p class="text-gray-600">Você recebe relatórios simples que mostram exatamente quanto
+                                    investiu e quanto retornou. Sem "blábláblá".</p>
                             </div>
                         </div>
                         <div class="hidden md:block md:w-1/2"></div>
@@ -398,56 +475,7 @@
         </div>
     </section>
 
-    <!-- SEÇÃO: PROVA SOCIAL -->
-    <section class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold text-gray-909 mb-4">O que nossos clientes dizem</h2>
-                <p class="text-xl text-gray-600">Resultados reais de negócios reais</p>
-            </div>
-
-            <div class="grid md:grid-cols-3 gap-8">
-                <!-- Depoimento 1 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-lg">
-                    <div class="flex items-center mb-4">
-                        <img src="https://i.pravatar.cc/48?img=1" alt="João Lucas" class="w-12 h-12 rounded-full">
-                        <div class="ml-4">
-                            <p class="font-bold text-gray-909">João Lucas</p>
-                            <p class="text-sm text-gray-600">Clínica Odontológica</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-700 mb-4 italic">"Agenda furada... depois que a Moontego entrou em ação, ficou impossível colocar mais gente na agenda. De verdade."</p>
-                    <div class="bg-green-100 text-green-800 font-bold p-3 rounded-lg text-center">+87% em agendamentos</div>
-                </div>
-
-                <!-- Depoimento 2 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-lg">
-                    <div class="flex items-center mb-4">
-                        <img src="https://i.pravatar.cc/48?img=2" alt="Maria Clara" class="w-12 h-12 rounded-full">
-                        <div class="ml-4">
-                            <p class="font-bold text-gray-909">Maria Clara</p>
-                            <p class="text-sm text-gray-600">Canine Care (Canis)</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-700 mb-4 italic">"Pagava caro em anúncio, mas o retorno não vinha. Moontego arrumou tudo. Agora sei exatamente o que cada real traz."</p>
-                    <div class="bg-green-100 text-green-800 font-bold p-3 rounded-lg text-center">-34% custo por lead</div>
-                </div>
-
-                <!-- Depoimento 3 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-lg">
-                    <div class="flex items-center mb-4">
-                        <img src="https://i.pravatar.cc/48?img=3" alt="Roberto Costa" class="w-12 h-12 rounded-full">
-                        <div class="ml-4">
-                            <p class="font-bold text-gray-909">Roberto Costa</p>
-                            <p class="text-sm text-gray-600">Advocacia</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-700 mb-4 italic">"Liga o mês inteiro tentando fechar case com lead ruim? Não mais. Os caras trazem cliente que já quer comprar."</p>
-                    <div class="bg-green-100 text-green-800 font-bold p-3 rounded-lg text-center">+156% em conversões</div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- SEÇÃO: PROVA SOCIAL - OCULTA ATÉ PRIMEIRO CLIENTE -->
 
     <!-- SEÇÃO: FAQ -->
     <section id="faq" class="py-20 bg-gray-50">
@@ -461,11 +489,12 @@
                 <!-- FAQ 1 -->
                 <details class="bg-white rounded-xl shadow-lg p-6 cursor-pointer group">
                     <summary class="flex justify-between items-center font-bold text-lg text-gray-909">
-                        <span>Em quanto tempo começo a ver resultados?</span>
+                        <span>Em quanto tempo vejo resultados?</span>
                         <span class="transition group-open:rotate-180">▼</span>
                     </summary>
                     <p class="text-gray-600 mt-4">
-                        Primeiras conversões aparecem entre 5-10 dias. Mas o resultado REAL (com escala e otimização) fica visível em 30 dias. Por isso pedimos no mínimo 30 dias de teste antes de julgar.
+                        Normalmente, os primeiros leads aparecem entre 7 e 14 dias, após o período inicial de testes e
+                        otimizações da campanha.
                     </p>
                 </details>
 
@@ -476,40 +505,32 @@
                         <span class="transition group-open:rotate-180">▼</span>
                     </summary>
                     <p class="text-gray-600 mt-4">
-                        Ninguém na história da publicidade pode garantir 100% de vendas. Mas a gente garante que vai trazer LEADS QUALIFICADOS. E lead qualificado tá a 70% do caminho pra ser cliente. O resto é com você.
+                        Não prometemos milagres. Prometemos estratégia, dados e otimização constante, que é o que gera
+                        vendas consistentes no médio prazo.
                     </p>
                 </details>
 
                 <!-- FAQ 3 -->
                 <details class="bg-white rounded-xl shadow-lg p-6 cursor-pointer group">
                     <summary class="flex justify-between items-center font-bold text-lg text-gray-909">
-                        <span>Já tentei tráfego pago e não funcionou. Vale tentar de novo?</span>
+                        <span>Já tentei e não funcionou. Vale tentar de novo?</span>
                         <span class="transition group-open:rotate-180">▼</span>
                     </summary>
                     <p class="text-gray-600 mt-4">
-                        Vale. Muito. A maioria dos clientes veio pra gente porque tentou errado antes. O problema não é tráfego pago. É a forma como você tá usando. Mensagem errada, audiência errada, landing page ruim. A gente resolve isso.
+                        Sim. Na maioria dos casos, o problema não é o tráfego, mas sim público errado, copy fraca ou
+                        falta de acompanhamento. Nós corrigimos isso.
                     </p>
                 </details>
 
                 <!-- FAQ 4 -->
                 <details class="bg-white rounded-xl shadow-lg p-6 cursor-pointer group">
                     <summary class="flex justify-between items-center font-bold text-lg text-gray-909">
-                        <span>Vocês criam anúncios e páginas?</span>
+                        <span>Preciso investir muito dinheiro?</span>
                         <span class="transition group-open:rotate-180">▼</span>
                     </summary>
                     <p class="text-gray-600 mt-4">
-                        Sim. A gente faz TUDO. Estratégia, criação de anúncio, landing page, funil de vendas, gestão da campanha, relatórios. Você só precisa aprovar a direção e receber os leads.
-                    </p>
-                </details>
-
-                <!-- FAQ 5 -->
-                <details class="bg-white rounded-xl shadow-lg p-6 cursor-pointer group">
-                    <summary class="flex justify-between items-center font-bold text-lg text-gray-909">
-                        <span>Tráfego funciona para negócio pequeno?</span>
-                        <span class="transition group-open:rotate-180">▼</span>
-                    </summary>
-                    <p class="text-gray-600 mt-4">
-                        Sim, funciona. Aliás, funciona MELHOR em negócio pequeno porque a concorrência é menor. Um canis que investe R$ 500/mês bem tem muito mais retorno que uma grande franquia investindo R$ 50k/mês errado. Tamanho importa menos que estratégia.
+                        Não. Trabalhamos com orçamentos enxutos focados em eficiência. Muitos negócios locais começam
+                        com R$ 20 a R$ 30 por dia.
                     </p>
                 </details>
             </div>
@@ -523,16 +544,16 @@
                 Pronto para ter previsibilidade de clientes?
             </h2>
             <p class="text-xl text-gray-300 mb-8">
-                Vamos entender seu negócio, traçar uma estratégia e colocar clientes qualificados chegando.
+                Vamos entender seu negócio, traçar uma estratégia e colocar clientes qualificados no seu funil.
             </p>
 
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="https://wa.me/5546991212854?text=Olá%20Moontego!%20Quero%20agendar%20uma%20conversa%20sobre%20estratégia%20de%20tráfego" target="_blank" class="btn-primary text-lg">
-                    Agendar conversa (WhatsApp)
-                </a>
-                <a href="mailto:contato@moontego.com.br" class="btn-secondary text-white border-white hover:bg-white hover:bg-opacity-10 text-lg">
-                    Enviar brief rápido
-                </a>
+                <button class="bg-amber-400 hover:bg-orange-500 text-white font-bold py-2 px-4 rounded-full">
+                    <a href="https://wa.me/5546991212854?text=Olá%20Moontego!%20Quero%20agendar%20uma%20conversa%20sobre%20estratégia%20de%20tráfego"
+                        target="_blank" class="btn-primary text-lg">
+                        Agendar conversa no WhatsApp
+                    </a>
+                </button>
             </div>
 
             <p class="text-gray-400 mt-8 text-sm">
@@ -567,7 +588,8 @@
                 <div>
                     <p class="font-bold text-white mb-4">Contato</p>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="https://wa.me/5546991212854" target="_blank" class="hover:text-white transition">WhatsApp</a></li>
+                        <li><a href="https://wa.me/5546991212854" target="_blank"
+                                class="hover:text-white transition">WhatsApp</a></li>
                         <li><a href="mailto:contato@moontego.com.br" class="hover:text-white transition">Email</a></li>
                     </ul>
                 </div>
@@ -579,15 +601,17 @@
     </footer>
 
     <!-- BOTÃO VOLTAR AO TOPO -->
-    <button id="backToTop" class="hidden fixed bottom-8 right-8 bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white p-3 rounded-full shadow-lg transition-all duration-300 z-40 flex items-center justify-center w-12 h-12">
+    <button id="backToTop"
+        class="hidden fixed bottom-8 right-8 bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white p-3 rounded-full shadow-lg transition-all duration-300 z-40 flex items-center justify-center w-12 h-12">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7-7m0 0L5 14m7-7v12"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7-7m0 0L5 14m7-7v12">
+            </path>
         </svg>
     </button>
 
     <script>
         const backToTopBtn = document.getElementById('backToTop');
-        
+
         window.addEventListener('scroll', () => {
             if (window.pageYOffset > 300) {
                 backToTopBtn.classList.remove('hidden');
@@ -595,11 +619,12 @@
                 backToTopBtn.classList.add('hidden');
             }
         });
-        
+
         backToTopBtn.addEventListener('click', () => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
     </script>
 
 </body>
+
 </html>
